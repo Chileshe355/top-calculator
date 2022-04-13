@@ -1,0 +1,61 @@
+body{
+    display:grid;
+    place-items:center;
+    padding-top: 10%;
+    color:white;
+  }
+  .mainContainer{
+    background:black;
+    width: 410px;
+    height:600px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:repeat(6, 1fr);
+    gap: 2px;
+    border-radius:8px;
+    border:10px solid grey
+   
+  }
+  
+  .display{
+    display:flex;
+    align-items:flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex;
+    grid-column-start: span 4;
+    border: 10px solid black;
+    text-align:center;
+    background:#d3d3d3;
+    color: black;
+    font-size: 5.5em;
+    font-family: monospace;
+  }
+  /*long side buttons*/
+
+  .plus{
+     grid-row-start:span 2;
+    
+  }
+  .equals{
+     grid-row-start:span 2;
+  }
+  .zero{
+    grid-column-start:span 2;
+  }
+  
+  /*shared classes for buttons*/
+
+  .operator{
+    background: orange;
+  }
+  .operand{
+    background: #ADD8E6;
+  }
+  button{
+    border-radius:8px;
+    border:none;
+    font-size: 2em;
+    font-family: monospace;
+  }
