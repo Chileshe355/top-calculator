@@ -10,14 +10,14 @@
 <body>
    <div class="mainContainer">
      <div class="display">00</div>
-     <button type="button" class="clear operator" value="AC" data-key="8">AC</button>
-     <button type="button" class="divide operator" value="/" data-key="191">/</button>
-     <button type="button" class="mulitply operator" value="X" data-key="106">X</button>
-     <button type="button" class="minus operator" value="-" data-key="109">-</button>
+     <button type="button" class="clear operator" value="AC" data-key="8" onClick="reply_click(this.className)">AC</button>
+     <button type="button" class="divide operator" value="/" data-key="191" onClick="reply_click(this.className)">/</button>
+     <button type="button" class="mulitply operator" value="X" data-key="106" onClick="reply_click(this.className)">X</button>
+     <button type="button" class="minus operator" value="-" data-key="109" onClick="reply_click(this.className)">-</button>
      <button type="button" class="seven operand" value="7" data-key="103">7</button>
      <button type="button" class="eight operand" value="8" data-key="104">8</button>
      <button type="button" class="nine operand" value="9" data-key="105">9</button>
-     <button type="button" class="plus operator" value="+" data-key="187">+</button>
+     <button type="button" class="plus operator" value="+" data-key="187" onClick="reply_click(this.className)">+</button>
      <button type="button" class="four operand" value="4" data-key="100">4</button>
      <button type="button" class="five operand" value="5" data-key="101">5</button>
      <button type="button" class="six operand" value="6" data-key="102">6</button>
@@ -26,7 +26,7 @@
      <button type="button" class="three operand" value="3" data-key="99">3</button>
      <button type="button" class="equals operator" value="=" data-key="13">=</button>
      <button type="button" class="zero operand" value="0" data-key="96">0</button>
-     <button type="button" class="point operand" value="." data-key="110">.</button>
+     <button type="button" class="point operand" value="." data-key="110" onClick="reply_click(this.className)">.</button>
    </div> 
    <script src="script.js"></script>
 </body>
